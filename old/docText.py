@@ -1,0 +1,6 @@
+textFile = open("F:\lht\Desktop\\7.txt","rt")
+print(textFile.readline())
+textFile.close()
+binFile = open("F:\lht\Desktop\\7.txt","rb")
+print(binFile.readline())
+binFile.close()
